@@ -1,0 +1,10 @@
+# Ignore the virtual environment folder
+myenv_new/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore temporary files and OS metadata
+*.log
+.DS_Store
