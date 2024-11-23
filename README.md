@@ -9,7 +9,8 @@ To install **SAIDATA**, follow these steps:
 ### 1. Clone the repository:
    If you have `git` installed, you can clone the repository:
  
-   git clone https://github.com/yourusername/SAIDATA.git
+   git clone https://github.com/SaidLaachir/SAIDATA.git
+   
    cd SAIDATA
 
 ### 2. Install the dependencies:
