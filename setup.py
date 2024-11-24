@@ -8,7 +8,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         'psutil',
-        'rich'
+        'rich',
+        'setuputils'
     ],
     entry_points={
         'console_scripts': [
