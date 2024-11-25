@@ -11,12 +11,27 @@ To install **SAIDATA**, follow these steps:
  
    git clone https://github.com/SaidLaachir/SAIDATA.git
    
-   cd SAIDATA
 
-### 2. Install the dependencies:
+
+### 2. create a virtual environment:
+    Try to type : 
+
+    python3 -m vev myenv_new
+
+    Then to activate it :
+
+    source ~/myenv_new/bin/activate
+
+### 3. Install the dependencies:
     You can install the required dependencies using pip. Run:
 
-    pip install -r requirements.txt
+    cd SAIDATA
+
+    pip install -r requirements.txt 
+
+    But if it didnt work try:
+
+    pip install rich psutil setuptools
 
 ### 3. Install the package:
     Once the dependencies are installed, you can install the SAIDATA package itself:
@@ -28,3 +43,20 @@ To install **SAIDATA**, follow these steps:
 
     saidata
 
+    If it didnt work from the first time you can run this command in SAIDATA repository:
+
+        python
+        
+        from saidata.saidata import main
+
+        main()
+        
+        exit()
+
+        then go bck to the hom edirectory by typing :
+        
+        cd ~
+
+        Then type the command: 
+        
+        saidata
