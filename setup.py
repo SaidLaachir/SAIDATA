@@ -9,7 +9,7 @@ setup(
     install_requires=[
         'psutil',
         'rich',
-        'setuputils'
+        'setuptools'
     ],
     entry_points={
         'console_scripts': [
