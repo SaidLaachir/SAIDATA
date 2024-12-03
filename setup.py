@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'saidata=saidata.saidata:main',  # chemin vers votre fonction `main`
+            'saidata=saidata.mainCode:main',  # chemin vers votre fonction `main`
         ],
     },
 )
